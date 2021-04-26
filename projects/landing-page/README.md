@@ -1,13 +1,9 @@
 # Landing Page Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## distructions
+My name **Reem Montaser**
+# The about project
+It is talking about how to build multi sections in landing page and we adding all sections in bar to make easy for the user to choose their section. We work on **activion and navigation menu bar** in our project 
+## The language that we used 
+**HTML CSS and JavaScript**.
+I advantage of this project that iam learning more about programming languages like linking links between the three languages and how we added new sections ,It was experience to know how to work on full project.
