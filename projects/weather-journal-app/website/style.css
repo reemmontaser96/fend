@@ -1,49 +1,67 @@
 body{
-    background: #fffff8;
+    background: #fffffe;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+background: url('weather.png');
+background-size: cover;
+background-repeat:no-repeat ;
 }
 
 #app{
     display: grid;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(100px, auto);
     /* grid-template-columns:  */
     height:100vh;
-    background: #f23557;
-    color: #f0d43a;
+    color: #ffffff;
     justify-content: center;
     grid-gap: 1em;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Oswald', sans-serif;
 }
 
 .holder{
+    text-shadow: #000000;
+    text-align: center;
 
 }
 
 .entry{
-    background: rgba(59, 74, 107, .4);
+    height: 10rem;
+    background: #2356b680;
+    text-shadow: 0 1.2rem 1rem rgba(0,0,0,0.7);
+    color: #fcfcfc;
+  font-family: "Times New Roman", sans-serif;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
 
 #entryHolder{
+    font-size: 1.5rem;
+    height: 100px;
+    align-items: center;
 
 }
 
 #date{
+    color: #080808;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 #temp{
-
+    color: #080808;
+    font-family: 'Oswald', sans-serif;
+    /*&#xf769;*/
 }
 
 #content{
+    color: #080808;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 .headline {
-
-}
-.title{
+    font-size: 2rem;
+    padding: 20px;
 
 }
 
@@ -57,32 +75,39 @@ input{
     display:block;
     height: 60px;
     width: 320px;
-    background:#22b2da;
-    color: #f0d43a;
+    background:#2356b680;
+    color: #070707;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
     border: none;
+    text-align: left;
+    justify-content: center;
 }
 
 button{
-    width: 400px;
-    height: 100px;
-    background: #3b4a6b;
-    color: #f0d43a;
+    width: 300px;
+    height: 60px;
+    background: #1994b667;
+    color: #083041;
     font-size: 26px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Times New Roman", sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    
 }
 h1{
-    font-size: 36px;
+    font-size: 50px;
 }
 
 textarea{
-    background:#22b2da;
-    color: #f0d43a;
+    width: 320px;
+    height: 60px;
+    background: #2356b680;
+    color: #050505;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    justify-content: center;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
@@ -93,8 +118,8 @@ button:focus {
 }
 /* Style for Placeholder Text*/
 ::placeholder { /* Firefox, Chrome, Opera */ 
-    color: #f0d43a; 
-    font-family: 'Oswald', sans-serif;
+    color: #061e29; 
+    font-family: 'Raleway', sans-serif;
 
 } 
   
